@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Martin Gatzweiler Apps</title>
+  <meta name="description" content="Apps von Martin Gatzweiler: Schwammerl Radar und Five Pips.">
+  <link rel="canonical" href="https://mrgatzi.github.io/">
+  <link rel="stylesheet" href="schwammerl-radar/style.css">
+  <style>
+    .apps { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 20px; }
+    .app { display: flex; gap: 16px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 18px; color: var(--ink); text-decoration: none; }
+    .app img, .app .ph { width: 64px; height: 64px; border-radius: 15px; flex: none; }
+    .app .ph { display: grid; place-items: center; background: #f4e9d4; color: #1d2528; font-weight: 800; font-size: 1.4rem; }
+    .app strong { display: block; font-size: 1.1rem; }
+    .app span { color: var(--muted); font-weight: 400; font-size: .95rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="wrap">
+      <h2>Apps von Martin Gatzweiler</h2>
+      <div class="apps">
+        <a class="app" href="schwammerl-radar/">
+          <img src="schwammerl-radar/icon.png" alt="">
+          <div><strong>Schwammerl Radar</strong><span>Pilz-Chancen für Oberösterreichs Wälder</span></div>
+        </a>
+        <a class="app" href="five-pips-privacy/">
+          <div class="ph" aria-hidden="true">⚄</div>
+          <div><strong>Five Pips</strong><span>Datenschutzerklärung</span></div>
+        </a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="wrap">
+      <span>© 2026 Martin Gatzweiler</span>
+      <a href="impressum/">Impressum</a>
+    </div>
+  </footer>
+</body>
+</html>
